@@ -1,9 +1,17 @@
 body{
+    width: 100vw;
+    height: 100vh;
     background-color: #302D47;
     font-family: 'Poppins', sans-serif;
     color: #BFBFBF;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 250px;
+}
+
+.body-login{
+    margin: auto;
 }
 
 .container{
@@ -163,7 +171,6 @@ button{
 .login-page{
     display: flex;
     justify-content: space-between;
-    margin: 169px 0 0 169px;
 }
 
 .container--left{
@@ -238,11 +245,11 @@ button{
     margin-top: 25px;
 }
 
-.conteiner--rigth{
+.container--rigth{
     margin-top: 40px;
 }
 
 .image-login{
-    width: 890px;
+    width: 130%;
     height: auto;
 }
